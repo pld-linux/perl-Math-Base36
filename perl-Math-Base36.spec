@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	Base36
-Summary:	Math::Base36 Perl module - Encoding and decoding of base36 strings
+Summary:	Math::Base36 Perl module - encoding and decoding of base36 strings
 Summary(pl):	Modu³ Perla Math::Base36 - kodowanie i dekodowanie ³añcuchów base36
 Name:		perl-Math-Base36
 Version:	0.02
