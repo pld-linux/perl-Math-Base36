@@ -9,12 +9,12 @@ Summary:	Math::Base36 Perl module - Encoding and decoding of base36 strings
 Summary(pl):	Modu³ Perla Math::Base36 - kodowanie i dekodowanie ³añcuchów base36
 Name:		perl-Math-Base36
 Version:	0.02
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -29,7 +29,8 @@ z cyframi 0..9,A..Z).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -46,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes LICENSE
-%{perl_sitelib}/Math/Base36.pm
-%{perl_sitelib}/auto/Math/Base36
+%{perl_vendorlib}/Math/Base36.pm
+%{perl_vendorlib}/auto/Math/Base36
 %{_mandir}/man3/*
