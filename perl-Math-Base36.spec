@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Base36
+%define		pdir	Math
+%define		pnam	Base36
 Summary:	Math::Base36 Perl module - encoding and decoding of base36 strings
 Summary(pl):	Modu³ Perla Math::Base36 - kodowanie i dekodowanie ³añcuchów base36
 Name:		perl-Math-Base36
