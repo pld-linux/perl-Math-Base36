@@ -10,6 +10,7 @@ Summary(pl):	Modu³ Perla Math::Base36 - kodowanie i dekodowanie ³añcuchów base36
 Name:		perl-Math-Base36
 Version:	0.1
 Release:	1
+Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
