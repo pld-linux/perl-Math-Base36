@@ -8,14 +8,13 @@
 Summary:	Math::Base36 Perl module - encoding and decoding of base36 strings
 Summary(pl):	Modu³ Perla Math::Base36 - kodowanie i dekodowanie ³añcuchów base36
 Name:		perl-Math-Base36
-Version:	0.1
-Release:	1
-Epoch:		1
+Version:	0.02
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	da3d1c3b260b6eb4aa3dea3b4726a142
+# Source0-md5:	399c6850c99334627d2d9245c9ca0980
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -29,7 +28,7 @@ Ten modu³ konwertuje do i z liczb Base36 (w systemie o podstawie 36 -
 z cyframi 0..9,A..Z).
 
 %prep
-%setup -q -n %{pnam}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL \
