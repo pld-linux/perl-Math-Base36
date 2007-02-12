@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Base36
 Summary:	Math::Base36 Perl module - encoding and decoding of base36 strings
-Summary(pl):	Modu≥ Perla Math::Base36 - kodowanie i dekodowanie ≥aÒcuchÛw base36
+Summary(pl.UTF-8):   Modu≈Ç Perla Math::Base36 - kodowanie i dekodowanie ≈Ça≈Ñcuch√≥w base36
 Name:		perl-Math-Base36
 Version:	0.02
 Release:	2
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module converts to and from Base36 numbers (0..9 - A..Z).
 
-%description -l pl
-Ten modu≥ konwertuje do i z liczb Base36 (w systemie o podstawie 36 -
+%description -l pl.UTF-8
+Ten modu≈Ç konwertuje do i z liczb Base36 (w systemie o podstawie 36 -
 z cyframi 0..9,A..Z).
 
 %prep
