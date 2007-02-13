@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Base36
 Summary:	Math::Base36 Perl module - encoding and decoding of base36 strings
-Summary(pl.UTF-8):   Moduł Perla Math::Base36 - kodowanie i dekodowanie łańcuchów base36
+Summary(pl.UTF-8):	Moduł Perla Math::Base36 - kodowanie i dekodowanie łańcuchów base36
 Name:		perl-Math-Base36
 Version:	0.02
 Release:	2
