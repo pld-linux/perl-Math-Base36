@@ -9,7 +9,7 @@ Summary:	Math::Base36 Perl module - encoding and decoding of base36 strings
 Summary(pl.UTF-8):	Moduł Perla Math::Base36 - kodowanie i dekodowanie łańcuchów base36
 Name:		perl-Math-Base36
 Version:	0.02
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
