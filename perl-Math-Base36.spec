@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	Base36
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Base36 Perl module - encoding and decoding of base36 strings
 Summary(pl.UTF-8):	Moduł Perla Math::Base36 - kodowanie i dekodowanie łańcuchów base36
 Name:		perl-Math-Base36
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3af1a961e45c0e367e78685a518f5dde
+URL:		http://search.cpan.org/dist/Math-Base36/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
